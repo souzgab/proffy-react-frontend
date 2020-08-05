@@ -1,9 +1,12 @@
 import React from 'react'
-import {Route, BrowserRouter} from 'react-router-dom'
+import PageHeader from '../../components/PageHeader';
+// import {Route, BrowserRouter} from 'react-router-dom'
 
 function TeacherForm(){
     return(
-        <h1>Form</h1>
+        <div id="page-teacher-form" className="container">
+            <PageHeader title="Incrivel que vc quer dar aulas"/>
+        </div>
     )
 }
 
